@@ -31,7 +31,7 @@ get_ipython().magic('pwd')
 mydir = get_ipython().magic('pwd')
 
 
-# *  윈도우에선 '\\\'이유는 리눅스에서 다르게인식
+# *  윈도우에선 '\\'이유는 리눅스에서 다르게인식
 
 # In[7]:
 
