@@ -1,22 +1,22 @@
 
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 import turtle
 
 
-# In[ ]:
+# In[2]:
 
 wn=turtle.Screen()
 
 
-# In[ ]:
+# In[3]:
 
 t1=turtle.Turtle()
 
 
-# In[ ]:
+# In[5]:
 
 def drawMaze(size,bigger,sides):
     for i in range(0,sides):
@@ -26,12 +26,12 @@ def drawMaze(size,bigger,sides):
             t1.right(90)
 
 
-# In[ ]:
+# In[6]:
 
 drawMaze(20,10,50)
 
 
-# In[ ]:
+# In[7]:
 
 wn.exitonclick()
 
