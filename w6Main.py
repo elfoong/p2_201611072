@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[23]:
+# In[1]:
 
 def RSP():
     userA=raw_input('userA input "Rock Scissors Paper" : ')
@@ -25,47 +25,7 @@ def RSP():
             print "A win"
 
 
-# In[25]:
-
-RSP()
-
-
-# In[26]:
-
-RSP()
-
-
-# In[27]:
-
-RSP()
-
-
-# In[28]:
-
-RSP()
-
-
-# In[29]:
-
-RSP()
-
-
-# In[30]:
-
-RSP()
-
-
-# In[31]:
-
-RSP()
-
-
-# In[32]:
-
-RSP()
-
-
-# In[33]:
+# In[2]:
 
 RSP()
 
