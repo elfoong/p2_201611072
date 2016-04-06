@@ -19,7 +19,7 @@ elseif (i doesn't divided 5)
 :i=i+1;
 endif
 repeat while(0<i<1000)
-:i=0;
+:if i>1000, i=0;
 :sum15=0;
 repeat 
 if (i is divided 15)
