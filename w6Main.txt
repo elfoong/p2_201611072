@@ -1,0 +1,33 @@
+﻿start
+:i=0;
+:sum3=0;
+repeat 
+if (i is divided 3)
+:sum3=sum3+i;
+:i=i+1;
+elseif (i doesn't divided 3)
+:i=i+1;
+endif
+repeat while(0<i<1000)
+:if i>1000, i=0;
+:sum5=0;
+repeat 
+if (i is divided 5)
+:sum5=sum5+i;
+:i=i+1;
+elseif (i doesn't divided 5)
+:i=i+1;
+endif
+repeat while(0<i<1000)
+:i=0;
+:sum15=0;
+repeat 
+if (i is divided 15)
+:sum15=sum15+i;
+:i=i+1;
+elseif (i doesn't divided 15)
+:i=i+1;
+endif
+repeat while(0<i<1000)
+:print sum3+sum5-sum15;
+end
