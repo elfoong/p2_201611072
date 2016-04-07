@@ -1,0 +1,33 @@
+title leapYear
+@startuml
+start
+:get user input year;
+if((year%4 == 0) and (year%100!=0 or year%400==0)) then (yes)
+:print This year is leap year;
+else (no)
+:print This year is not leap year;
+endif
+stop
+@enduml
+
+
+
+title highLow
+@startuml
+start
+:user select range;
+:trycount=0;
+repeat
+:user guess number;
+if (random number>guess number)
+:print "Up";
+:trycount=trycount+1;
+elseif (random number<guess number)
+:print "Down";
+:trycount=trycount+1;
+endif
+repeat while(random number==guess number)
+:print "You win at 'trycount' tries!";
+stop
+@enduml
+
