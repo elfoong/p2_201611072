@@ -9,13 +9,13 @@ def keyup():
     t1.forward(45)
     isInRectangle(curpos,coord)
     isOnLine(curpos,pos1,pos2)
-    isInCircle(curpos,radious,circlepos)
+    isInCircle(curpos,cirpos)
 def keydown():
     curpos=t1.pos()
     t1.back(45)
     isInRectangle(curpos,coord)
     isOnLine(curpos,pos1,pos2)
-    isInCircle(curpos,radious,circlepos)
+    isInCircle(curpos,cirpos)
 def keyright():
     t1.right(45)
 def keyleft():
@@ -25,7 +25,7 @@ def mousegoto(x,y):
     curpos=t1.pos()
     isInRectangle(curpos,coord)
     isOnLine(curpos,pos1,pos2)
-    isInCircle(curpos,radious,circlepos)
+    isInCircle(curpos,cirpos)
     
 def addkeys():
     wn.onkey(keyup, "Up")
