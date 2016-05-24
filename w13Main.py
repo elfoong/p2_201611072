@@ -20,7 +20,7 @@ def writeFile():
     myfile.write(line1)
     line2='\tsecond line\n'
     myfile.write(line2)
-    line3='third'
+    line3='third line'
     myfile.write(line3)
     myfile.close()
     myfile=open('output.txt','r') 
@@ -31,7 +31,7 @@ def writeFile():
         for i in range(0,len(res)):
             if res[i].find('line')>=0:
                 print res[i].upper() 
-    myfile2.close()
+    myfile.close()
     
 def lab13():
     readFile()
